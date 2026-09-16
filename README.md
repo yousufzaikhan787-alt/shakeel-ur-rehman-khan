@@ -25,6 +25,24 @@ This is my living portfolio: real code samples, SCORM/H5P demos, and tools built
 ## 📫 Contact
 - 📧 yousufzaikhan787@gmail.com
 - 🔗 linkedin.com/in/shakeel-ur-rehman-khan-194b6311
+- # Sample H5P Content Pack
+
+Interactive H5P content types used in UNICEF-funded Accelerated Learning Programs
+(remote, low-bandwidth settings).
+
+## Included samples
+1. **Course Presentation** — multi-slide lesson with embedded interactions
+2. **Question Set** — competency quiz with per-answer feedback
+3. **Drag and Drop** — vocabulary/matching activity
+4. **Branching Scenario** — decision-tree scenario for teacher training (see JSON below)
+5. **Interactive Video** — video with pause-points and embedded quizzes
+
+## Production notes
+- Media optimized: images &lt;100KB, videos H.264/MP4, audio MP3 64kbps
+- Works in Moodle Mobile app via H5P offline support
+- xAPI statements emitted per interaction — fully trackable in LMS analytics
+
+Used in ALP programs across 200+ centers in Khyber Pakhtunkhwa, Pakistan.
 
 ---
 *Available immediately · Open to remote & international contracts*
