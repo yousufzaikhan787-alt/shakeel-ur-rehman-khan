@@ -43,6 +43,22 @@ Interactive H5P content types used in UNICEF-funded Accelerated Learning Program
 - xAPI statements emitted per interaction — fully trackable in LMS analytics
 
 Used in ALP programs across 200+ centers in Khyber Pakhtunkhwa, Pakistan.
+# Moodle Admin Scripts
+
+Utilities from large-scale LMS operations (200+ centers, UNICEF-funded programs).
+
+## Scripts
+| File | Purpose |
+|---|---|
+| `bulk_upload_users.php` | Validated CSV bulk user creation with cohort assignment (CLI) |
+
+## Usage
+php bulk_upload_users.php users.csv
+
+CSV columns required: username, firstname, lastname, email, cohort
+- Skips existing usernames safely
+- Auto-assigns users to cohorts by cohort idnumber
+- Generates temporary passwords for first-login change
 
 ---
 *Available immediately · Open to remote & international contracts*
