@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest identifier="SAMPLE-COURSE-01" version="1.2"
+  xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+  xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd
+                      http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+  </metadata>
+
+  <organizations default="ORG-01">
+    <organization identifier="ORG-01">
+      <title>Sample Blended Learning Course (ToT Facilitation Skills)</title>
+      <item identifier="ITEM-01" identifierref="RES-01">
+        <title>Module 1: Foundations of Adult Learning</title>
+      </item>
+      <item identifier="ITEM-02" identifierref="RES-02">
+        <title>Module 2: Cascade Training Methodology</title>
+      </item>
+      <item identifier="ITEM-03" identifierref="RES-03">
+        <title>Module 3: Interactive Content with H5P</title>
+      </item>
+      <item identifier="ITEM-04" identifierref="RES-04">
+        <title>Module 4: Assessment and Competency Tracking</title>
+      </item>
+      <item identifier="ITEM-05" identifierref="RES-05">
+        <title>Module 5: Final Assessment</title>
+      </item>
+    </organization>
+  </organizations>
+
+  <resources>
+    <resource identifier="RES-01" type="webcontent" adlcp:scormtype="sco" href="module1/index.html"/>
+    <resource identifier="RES-02" type="webcontent" adlcp:scormtype="sco" href="module2/index.html"/>
+    <resource identifier="RES-03" type="webcontent" adlcp:scormtype="sco" href="module3/index.html"/>
+    <resource identifier="RES-04" type="webcontent" adlcp:scormtype="sco" href="module4/index.html"/>
+    <resource identifier="RES-05" type="webcontent" adlcp:scormtype="sco" href="module5/index.html"/>
+  </resources>
+</manifest>
