@@ -1,0 +1,29 @@
+{
+  "contentType": "H5P.BranchingScenario",
+  "params": {
+    "content": [
+      {
+        "type": "H5P.BranchingQuestion",
+        "params": {
+          "branchingQuestion": {
+            "question": "A facilitator reports 40% dropout in week 2 of an Accelerated Learning Program. What do you do first?",
+            "alternatives": [
+              {
+                "text": "Conduct a rapid community needs assessment and meet Village Education Network members",
+                "nextContentId": 1
+              },
+              {
+                "text": "Immediately replace the facilitator",
+                "nextContentId": 2
+              },
+              {
+                "text": "Wait for the monthly report cycle",
+                "nextContentId": 3
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+}
