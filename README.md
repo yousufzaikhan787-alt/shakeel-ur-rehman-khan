@@ -23,7 +23,7 @@ This is my living portfolio: real code samples, SCORM/H5P demos, and tools built
 - Learning analytics dashboards used by UNICEF & provincial education authorities
 
 ## 📫 Contact
-- 📧 skikhan@gmail.com
+- 📧 yousufzaikhan787@gmail.com
 - 🔗 linkedin.com/in/shakeel-ur-rehman-khan-194b6311
 
 ---
